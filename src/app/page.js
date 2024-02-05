@@ -3,7 +3,7 @@ import TopNavbar from "./Components/Navbar/navbar";
 import CategoriesRow from "./Components/CategoryBar/categoryBar";
 
 import Footer from "./Components/Footer/footer";
-import Bookmarks_Section from "./Components/Bookmarks_Section/bookmarks_Section.js";
+import Bookmarks_Section from "./Components/Bookmarks_Section/bookmarks_Section";
  import ConvertFromPDF from "./Components/Convert_From_PDF/from_pdf";
 import ConvertToPDF from "./Components/Convert_To/from_pdf";
 

@@ -5,7 +5,7 @@ import styles from "./from_pdf.module.css"
 const ConvertFRPDF = () => {
     return (
       <div className={styles.top}>
-                console.log('error is here);
+               
 
         <div className={styles.heading}>
           <h2>Convert from PDF</h2>
