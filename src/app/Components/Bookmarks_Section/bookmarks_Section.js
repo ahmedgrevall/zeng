@@ -8,12 +8,12 @@ const BookmarkSection = () => {
         <h2>Your Bookmarks</h2>
       </div>
       <div className={styles.cards}>
-        <BoxItem
-          name="Edit PDF"
-          description="The best Word to PDF converter online"
-          imageSrc="https://images.hipdf.com/images2022/icons/editPDF.svg"
-          className={styles.boxItem}
-        />
+      <BoxItem
+  name="Edit PDF"
+  description="The best Word to PDF converter online"
+  imageSrc="https://images.hipdf.com/images2022/icons/editPDF.svg"
+  className={styles.boxItem}
+/>
         <BoxItem
           name="Crop PDF"
           description="Convert Powerpoint to PDF online"
@@ -28,7 +28,7 @@ const BookmarkSection = () => {
         />
         <BoxItem
           name="Rotate PDF"
-          description="Convert Powerpoint to PDF online."
+          description="Convert Powerpoint to PDF online"
           imageSrc="https://images.hipdf.com/images2022/icons/Rotate-PDF.svg"
           className={styles.boxItem}
         />
