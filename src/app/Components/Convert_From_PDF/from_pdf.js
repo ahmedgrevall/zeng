@@ -26,7 +26,7 @@ const ConvertFromPDF = () => {
   };
 
   return (
-    <div className="outer">
+   
       <div className={`${styles.top} mx-30`}>
         <div className={styles.heading}>
           <h2 className="text-2xl font-bold">Convert from PDF</h2>
@@ -75,7 +75,7 @@ const ConvertFromPDF = () => {
               />
               {/* Add more BoxItem components as needed */}
             </div>
-          </div>
+         
 
           {/* Navigation Arrows */}
           <button
