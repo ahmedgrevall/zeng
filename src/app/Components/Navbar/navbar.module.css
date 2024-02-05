@@ -18,13 +18,14 @@
 .searchBar {
   display: flex;
   align-items: center;
-  border: 1px solid #ccc;
+  border: 1px solid #c1c1c1;
   border-radius: 25px; /* Round border for the search bar */
   overflow: hidden;
+
 }
 
 .searchIcon {
-  background-color: #333;
+  background-color: #FFFFFF;
   padding: 10px;
   border-radius: 0 25px 25px 0; /* Round border for the left side of the icon */
   color: #fff; /* White color for the icon */
@@ -44,6 +45,7 @@
   font-size: 1rem;
   color: #333;
   outline: none; /* Remove default input outline */
+  width: 450px;
 }
 
 /* Add placeholder style */

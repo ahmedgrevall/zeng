@@ -1,18 +1,29 @@
-/* Footer.module.css */
+/* footer.module.css */
+
 .footer {
-  
-  bottom: 0;
-  left: 0;
-  width: 100%;
+  background-color: #f0f0f0;
   padding: 20px;
-  background-color: #ECECF5; /* Set background color to lightest gray */
-  color: #333; /* Set text color */
 }
 
 .row {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 20px;
+}
+
+.row2 {
+  display: flex;
+  align-items: left;
+  margin-bottom: 20px;
+}
+
+.socialIcons img {
+  width: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+
+
 }
 
 .column {
@@ -20,4 +31,36 @@
   margin-right: 20px;
 }
 
-/* Add more styling as needed */
+.column h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.internalLinks {
+  list-style: none;
+  padding: 0;
+}
+
+.internalLinks li {
+  margin-bottom: 5px;
+}
+
+.boldText {
+  font-weight: normal;
+  font-size: small;
+  color: black;
+}
+
+/* Set text color to black */
+.footer,
+.column h3,
+.internalLinks li {
+  color: black;
+  
+}
+
+/* Make text in the "Documentaries" section thinner and smaller */
+.documentaries {
+  font-weight: normal;
+  font-size: 0.9em;
+}
