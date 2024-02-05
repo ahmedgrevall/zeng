@@ -41,39 +41,39 @@ const ConvertFromPDF = () => {
             <div className={styles.scrollContainer} style={{ width: `${totalItems * 100}%`, transform: `translateX(-${currentIndex * (100 / totalItems)}%)` }}>
               <BoxItem
                 name="PPT to PDF"
-                description="Convert Powerpoint to PDF online."
+                description="Convert Powerpoint to PDF online"
                 imageSrc="https://images.hipdf.com/images2022/icons/PPT-PDF.svg"
                 className={styles.boxItem}  
               />
               <BoxItem
                 name="JPG to PDF"
-                description="Convert Powerpoint to PDF online."
+                description="Convert Powerpoint to PDF online"
                 imageSrc="https://images.hipdf.com/images2022/icons/jpg-pdf.svg"
                 className={styles.boxItem}  
               />
               <BoxItem
                 name="Word to PDF"
                 description="
-                The best Word to PDF converter online."
+                The best Word to PDF converter online"
                 imageSrc="https://images.hipdf.com/images2022/icons/word-pdf.svg"
                 className={styles.boxItem}  
               />
                <BoxItem
                 name="TXT to PDF"
-                description="Convert Powerpoint to PDF online."
+                description="Convert Powerpoint to PDF online"
                 imageSrc="https://images.hipdf.com/images2022/icons/Image-in-TXT.svg"
                 className={styles.boxItem}  
               />
                <BoxItem
                 name="RTF to PDF"
                 description="
-                Convert RTF file to PDF online for free."
+                Convert RTF file to PDF online for free"
                 imageSrc="https://images.hipdf.com/images2022/icons/Image-in-RTX.svg"
                 className={styles.boxItem}  
               />
                <BoxItem
                 name="PUB to PDF"
-                description="Convert Powerpoint to PDF online."
+                description="Convert Powerpoint to PDF online"
                 imageSrc="https://images.hipdf.com/images2022/icons/Excel-PUB.svg"
                 className={styles.boxItem}  
               />

@@ -5,7 +5,7 @@ import styles from "./bookmarks.module.css"
 const BookmarkSection = () => {
     return (
       <div className={styles.top}>
-                console.log('error is here);
+                
 
         <div className={styles.heading}>
           <h2>Your Bookmarks</h2>
