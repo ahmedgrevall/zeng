@@ -1,0 +1,51 @@
+/* BoxItem.css */
+
+.card-container {
+    position: relative;
+    display: inline-block;
+    width: 260px; /* Set the desired width */
+  }
+  
+  .item {
+    position: relative;
+    display: block;
+    text-align: left;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+    height: 100%;
+  }
+  
+  .item:hover {
+    background-color: #f8f8f8;
+    transform: translateY(-3px);
+    box-shadow: inset;
+  }
+  
+  .tool-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .title {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #272e62;
+    font-weight: bolder;
+  }
+  
+  .desc {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .bookmark-icon {
+    position: absolute;
+    top: 10px; /* Adjust the distance from the top */
+    right: 10px; /* Adjust the distance from the right */
+    fill: #fff; /* Adjust the color of the bookmark icon */
+  }
+  

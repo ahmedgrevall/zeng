@@ -1,0 +1,26 @@
+/* styles/bookmarkSection.module.css */
+.top {
+    margin: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+  
+  }
+  
+  .heading {
+    text-align: left;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 60px;
+  }
+  
+  .cards {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    align-items: left;
+    justify-content: flex-start 
+  }
+  
+  /* Add additional styling for BoxItem if needed */
+  

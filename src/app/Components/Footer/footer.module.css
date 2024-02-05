@@ -1,0 +1,23 @@
+/* Footer.module.css */
+.footer {
+  
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: #ECECF5; /* Set background color to lightest gray */
+  color: #333; /* Set text color */
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+/* Add more styling as needed */

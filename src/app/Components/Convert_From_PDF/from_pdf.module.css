@@ -1,0 +1,73 @@
+/* from_pdf.module.css */
+
+.outer {
+  /* Add any styles for the outer container */
+}
+
+.top {
+  /* Add any styles for the top section */
+}
+
+.heading {
+ 
+  text-align: left;
+    color: black;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.carouselContainer {
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  padding-left: 120px; /* Added left padding */
+  padding-right: 120px; /* Added right padding */
+  display: flex; 
+
+}
+
+.scrollContainer {
+  transition: transform 0.3s ease-in-out;
+  /* white-space: nowrap; */
+  overflow: hidden;
+  display: flex; 
+  
+}
+.boxItem {
+  /* Your existing styles for BoxItem */
+  margin-right: 20px; /* Adjust the margin value as needed */
+  
+}
+
+.buttonLeft,
+.buttonRight {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  width: 44px;
+  margin-top: -22px; /* Added margin to center vertically */
+}
+
+.buttonLeft {
+  left: 100px;
+  margin-right: 10px; /* Added margin to the right of the buttonLeft */
+}
+
+.buttonRight {
+  right: 200px;
+  margin-left: 10px; /* Added margin to the left of the buttonRight */
+}
+
+/* Add any additional styles as needed */

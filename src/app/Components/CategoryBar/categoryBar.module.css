@@ -1,0 +1,24 @@
+/* categoryBar.module.css */
+.categoriesRow {
+    display: flex;
+    overflow-x: auto;
+    padding: 10px;
+    background-color: #FFFFFF; /* Set background color to white */
+    justify-content: center; /* Align the content in the center */
+    margin-top: 10px;
+  }
+  
+  .categoryItem {
+    padding: 8px 12px;
+    margin-right: 8px;
+    background-color: var(--lt-color-background-default);
+    color: #808080;
+    border-radius: var(--roundness-subtle);
+    cursor: pointer;
+    transition: background-color var(--transition-base);
+  }
+  
+  .categoryItem:hover {
+    background-color: var(--lt-color-background-light);
+  }
+  
