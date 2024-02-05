@@ -10,7 +10,7 @@ const BookmarkSection = () => {
       <div className={styles.cards}>
         <BoxItem
           name="Edit PDF"
-          description='The best Word to PDF converter online'
+          description="The best Word to PDF converter online"
           imageSrc="https://images.hipdf.com/images2022/icons/editPDF.svg"
           className={styles.boxItem}
         />
