@@ -44,7 +44,7 @@ const ConvertFRPDF = () => {
                 imageSrc="https://images.hipdf.com/images2022/icons/Image-in-TXT.svg"
                 className={styles.boxItem}  
               />
-          {/* Add more BoxItem components as needed */}
+        
         </div>
       </div>
     );
